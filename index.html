@@ -1,8 +1,300 @@
 <html>
-<head>
-<title>Alfin Jaison</title>
-</head>
-<body>
-Hello World this is fisrst commit second commitdffd
-</body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- <script type="text/javascript" src="loop.js"></script> -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto" rel="stylesheet">
+		<title>Alfin Jaison CV</title>
+		<style>
+
+			body{
+				margin:0px;
+				padding-top:100px;
+				font-family: 'Montserrat','Open Sans', sans-serif;
+				font-style: normal; font-variant: normal; font-weight: 100;
+			}
+			
+			p{
+				//font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+				font-style: normal; font-variant: normal; font-weight: 100;	
+				margin:0px;
+				color:cornflowerblue;
+			}
+			
+			.topBar{
+				position:fixed;
+				top:0;
+				width:100%;
+				background:white;
+				z-index:100;
+				box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.75);
+			}
+
+			.name{
+				//font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+				margin:20px;
+				margin-left:85px;
+				font-size: 34px; 
+				color: #444;
+				display: inline-block;
+				white-space: nowrap;
+			}
+			.logo{
+				margin-left:10px;
+				position:absolute;
+				display: inline-block;
+			}
+			.navBar{
+				position:absolute;
+				right:5%;
+				height:100%;
+				display: inline-flex;
+				align-items: center;
+			}
+			
+			.sections{
+				margin:20px; 
+				font-size: 17px;
+				color: #111;
+				position:relative;
+				display: inline-block;
+				white-space: nowrap;
+			}
+			
+			.sections:hover{
+				color: cadetblue;
+				cursor: pointer;
+			}
+			
+			.myInfo{
+				background:url(images/hex.png);
+				text-align:center;
+			}
+			
+			.skills{
+				box-shadow:inset 0 10px 15px -8px rgba(0,0,0,0.75), inset 0 -10px 15px -8px rgba(0,0,0,0.75);
+				background:url(images/qbkls.png);
+				text-align:center;
+				padding:30px;
+			}
+			
+			.skill{
+				color: white;
+				font-size: 25px;
+				min-width: 100px;
+				height: 30px;
+				margin: 30px;
+				display: inline-block;
+				padding: 10px;
+				background: #444;
+				background: linear-gradient(30deg,#777,#555);
+			}
+			
+			.linkedin{
+				display:inline-block; 
+				margin:40px; 
+				border: 1px solid white; 
+				background:url(images/link.png);
+				background-size:cover;
+				width: 250;
+				height: 340;
+			}
+			.summary{
+				margin:40px;
+				color:white;
+				display:inline-block;
+				font-size: 20px;
+				vertical-align:bottom;
+				max-width: 400px;
+			}
+			.viewProfile{
+				height: 25px;
+				width: 100px;
+				opacity: 0;
+				position: relative;
+				top: 260;
+				cursor: pointer;
+			}
+			
+			
+			.segment{
+				font-size: 20px;
+				text-align:center;
+				padding:40px;
+				background:#eee;
+			}
+			.about{
+				top:100;
+				left:0;
+				right:0;
+				position:absolute;
+			}
+			@media only screen and (max-width: 880px) {
+				.navBar{
+					display:none;
+				}
+			}
+		</style>
+	</head>
+	<!-- <body onload="init()" onresize="canvasSize()"> -->
+	<body>
+		<div class="topBar">
+			<div class="logo">
+			<img src="logoA.svg" alt="logo" height="80" width="60">
+			</div>
+			<div class="name">
+				Alfin Jaison
+			</div>
+			
+			<div class="navBar">
+				<span id="seg1" class="sections">
+					EDUCATION
+				</span>
+				<span id="seg2" class="sections">
+					SKILLS
+				</span>
+				<span id="seg3" class="sections">
+					EXPERIENCE
+				</span>
+				<span id="seg4" class="sections">
+					CONTACT
+				</span>
+			</div>
+		</div>
+		
+		<div class="myInfo">
+				<div class="linkedin">
+					<button id="vp" class="viewProfile">View Profile</button>
+				</div>
+				<div class="summary">
+					ABOUT ME</br>
+					<hr></br>
+					Eager to gain work experience</br></br>
+					Quick to learn new programming languages and other software technologies</br></br>
+					Experienced in various programming languages, web technologies and Database design</br></br>
+				</div>
+				
+			
+		
+		</div>
+		
+		<div id="s1" class="segment">
+				<b>EDUCATION</b></br>
+				<hr></br>
+				HERIOT WATT, DUBAI</br></br>
+				2017 - 2020</br></br>  
+				BSc Computer Science</br></br>
+		</div>
+		
+		<div id="s2" class="segment">
+				<b>SKILLS</b></br>
+				<hr>	
+		</div>
+		<div class="skills">
+			<span class="skill">C++</span>
+			<span class="skill">JavaScript</span>
+			<span class="skill">Java</span>
+			<span class="skill">Python</span>
+			<span class="skill">Android Studio</span>
+			<span class="skill">Unity</span>
+			<span class="skill">Adobe Photoshop</span>
+			<span class="skill">Microsoft Excel</span>
+			<span class="skill">Google Analytics</span>
+			<!--<span class="skill">PHP</span>
+			<span class="skill">JSP</span>
+			<span class="skill">Web Design</span>
+			<span class="skill">Software Development</span>
+			<span class="skill">C</span>
+			<span class="skill">JSON</span>
+			<span class="skill">XML</span>
+			<span class="skill">XHTML</span>
+			<span class="skill">HTML</span>
+			<span class="skill">CSS</span>
+			<span class="skill">Microsoft Word</span>
+			<span class="skill">Microsoft Powerpoint</span>
+			<span class="skill">SML</span>
+			<span class="skill">Prolog</span>
+			<span class="skill">ARM Assembly</span>-->
+		</div>
+
+		<div class="segment">
+		<b>PROJECTS AND OTHER WORKS</b></br>
+		<hr></br>
+		<p>Smart India Hackathon: Android application</p></br>
+
+Ministry of Health - Monitoring MoHW staff visits via Android application.</br></br>
+Google Maps api was used to create the UI of the app.
+The app keeps records of various Health checkup programs and other similar programs.
+They are categorised according to location (States).
+</br></br>
+<hr>
+<i>College Projects:</i></br></br>
+
+<p>JAVA project : Simple Spellchecker</p></br></br>
+
+Hashtable was implemented using  arrays as the data structure.
+The program stores all words from  given files(d1 to d5.txt dictionaries)
+into the hashtable, depending on argument provided to the program.
+The program accepts another file name as an argument. This file contains the words that 
+need to be checked. Incorrect words are given suggestions.
+The program is a command line application. The purpose of the project was to compare 
+time taken by hashtable and a linked list. The hashtable was found to be significantly 
+faster.
+</br></br>
+<p>JSP Web application SQL DB: Shopping Website</p></br></br>
+
+A basic shopping website consisting of a homepage, products page, shopping  cart and a 
+checkout page.
+JSP and SQL was used in the backend.
+HTML,Javascript and CSS was used as frontend.
+
+</br></br>
+<p>C Project (Security): Steganography </p></br></br>
+Message,password and image(filename) is taken from user as arguments. The message is 
+encoded into the image (PPM file) using the password.
+Additional features such as AES 256 bit CBC Encryption and 24 bit per pixel encoding 
+was added.
+</br></br>
+<p>C and Assembly : Raspberry Pi programming</p></br></br>
+Simple game (Mastermind) was implemented on the Raspberry Pi using C programming for 
+game logic and assembly for low-level functions that interact with the hardware of the 
+Pi.
+</br></br>
+		</div>		
+	
+		<div id="s3" class="segment">
+		<b>EXPERIENCE</b></br>
+		<hr></br>
+		No work experience yet :(</br></br>
+		</div>
+	
+		<div id="s4" class="segment">
+				<b>CONTACT</b></br>
+				<hr></br></br>				
+				<p>Phone:</p></br>
+				+971 566909207</br></br>
+				<p>Email:</p></br>
+				alfinjaison9@gmail.com</br></br>
+				<p>Address:</p></br>
+				Skycourt Towers, Dubailand, Dubai</br></br>								
+		</div>	
+
+		<script>
+			$("#seg1").click(function() {
+				$('html, body').animate({scrollTop: $("#s1").offset().top-200}, 500);
+			});
+			$("#seg2").click(function() {
+				$('html, body').animate({scrollTop: $("#s2").offset().top-200}, 500);
+			});
+			$("#seg3").click(function() {
+				$('html, body').animate({scrollTop: $("#s3").offset().top-200}, 500);
+			});			
+			$("#seg4").click(function() {
+				$('html, body').animate({scrollTop: $("#s4").offset().top-200}, 500);
+			});		
+			$("#vp").click(function() {
+				window.open("https://www.linkedin.com/in/alfin-jaison-3815a2178");
+			});			
+		</script>
+	</body>
 </html>

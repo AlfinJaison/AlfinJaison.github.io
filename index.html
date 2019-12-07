@@ -123,11 +123,8 @@
 				padding:40px;
 				background:#eee;
 			}
-			.segment2{
-				font-size: 20px;
-				text-align:justify;
-				padding:40px;
-				background:#eee;
+			.innerSeg{
+				text-align:left;
 			}
 			.about{
 				top:100;
@@ -223,49 +220,51 @@
 			<span class="skill">ARM Assembly</span>-->
 		</div>
 
-		<div class="segment2">
+		<div class="segment">
 		<b>PROJECTS AND OTHER WORKS</b></br>
 		<hr></br>
-		<p>Smart India Hackathon: Android application</p></br>
+			<div class="innerSeg">
+				<p>Smart India Hackathon: Android application</p></br>
 
-Ministry of Health - Monitoring MoHW staff visits via Android application.</br></br>
-Google Maps api was used to create the UI of the app.
-The app keeps records of various Health checkup programs and other similar programs.
-They are categorised according to location (States).
-</br></br>
-<hr>
-<i>College Projects:</i></br></br>
+				Ministry of Health - Monitoring MoHW staff visits via Android application.</br></br>
+				Google Maps api was used to create the UI of the app.
+				The app keeps records of various Health checkup programs and other similar programs.
+				They are categorised according to location (States).
+				</br></br>
+				<hr>
+				<i>College Projects:</i></br></br>
 
-<p>JAVA project : Simple Spellchecker</p></br></br>
+				<p>JAVA project : Simple Spellchecker</p></br></br>
 
-Hashtable was implemented using  arrays as the data structure.
-The program stores all words from  given files(d1 to d5.txt dictionaries)
-into the hashtable, depending on argument provided to the program.
-The program accepts another file name as an argument. This file contains the words that 
-need to be checked. Incorrect words are given suggestions.
-The program is a command line application. The purpose of the project was to compare 
-time taken by hashtable and a linked list. The hashtable was found to be significantly 
-faster.
-</br></br>
-<p>JSP Web application SQL DB: Shopping Website</p></br></br>
+				Hashtable was implemented using  arrays as the data structure.
+				The program stores all words from  given files(d1 to d5.txt dictionaries)
+				into the hashtable, depending on argument provided to the program.
+				The program accepts another file name as an argument. This file contains the words that 
+				need to be checked. Incorrect words are given suggestions.
+				The program is a command line application. The purpose of the project was to compare 
+				time taken by hashtable and a linked list. The hashtable was found to be significantly 
+				faster.
+				</br></br>
+				<p>JSP Web application SQL DB: Shopping Website</p></br></br>
 
-A basic shopping website consisting of a homepage, products page, shopping  cart and a 
-checkout page.
-JSP and SQL was used in the backend.
-HTML,Javascript and CSS was used as frontend.
+				A basic shopping website consisting of a homepage, products page, shopping  cart and a 
+				checkout page.
+				JSP and SQL was used in the backend.
+				HTML,Javascript and CSS was used as frontend.
 
-</br></br>
-<p>C Project (Security): Steganography </p></br></br>
-Message,password and image(filename) is taken from user as arguments. The message is 
-encoded into the image (PPM file) using the password.
-Additional features such as AES 256 bit CBC Encryption and 24 bit per pixel encoding 
-was added.
-</br></br>
-<p>C and Assembly : Raspberry Pi programming</p></br></br>
-Simple game (Mastermind) was implemented on the Raspberry Pi using C programming for 
-game logic and assembly for low-level functions that interact with the hardware of the 
-Pi.
-</br></br>
+				</br></br>
+				<p>C Project (Security): Steganography </p></br></br>
+				Message,password and image(filename) is taken from user as arguments. The message is 
+				encoded into the image (PPM file) using the password.
+				Additional features such as AES 256 bit CBC Encryption and 24 bit per pixel encoding 
+				was added.
+				</br></br>
+				<p>C and Assembly : Raspberry Pi programming</p></br></br>
+				Simple game (Mastermind) was implemented on the Raspberry Pi using C programming for 
+				game logic and assembly for low-level functions that interact with the hardware of the 
+				Pi.
+				</br></br>
+			</div>
 		</div>		
 	
 		<div id="s3" class="segment">
@@ -275,14 +274,14 @@ Pi.
 		</div>
 	
 		<div id="s4" class="segment">
-				<b>CONTACT</b></br>
-				<hr></br></br>				
-				Phone: +971 566909207
-				</br></br>
-				Email: alfinjaison9@gmail.com
-				</br></br>
-				Address: Dunes Residence, Dubailand, Dubai
-				</br></br>								
+			<b>CONTACT</b></br>
+			<hr></br></br>
+			Phone: +971 566909207
+			</br></br>
+			Email: alfinjaison9@gmail.com
+			</br></br>
+			Address: Dunes Residence, Dubailand, Dubai
+			</br></br>							
 		</div>	
 
 		<script>
@@ -299,7 +298,7 @@ Pi.
 				$('html, body').animate({scrollTop: $("#s4").offset().top-200}, 500);
 			});		
 			$("#vp").click(function() {
-				window.open("https://www.linkedin.com/in/alfin-jaison-3815a2178");
+				window.open("https://www.linkedin.com/in/alfin-jaison");
 			});			
 		</script>
 	</body>

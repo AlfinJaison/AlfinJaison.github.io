@@ -7,6 +7,12 @@
 		<title>Alfin Jaison CV</title>
 		<style>
 
+			@keyframes AnimationName {
+			    0%{background-position:0% 50%}
+			    50%{background-position:100% 51%}
+			    100%{background-position:0% 50%}
+			}
+			
 			body{
 				margin:0px;
 				padding-top:100px;
@@ -67,7 +73,11 @@
 			}
 			
 			.myInfo{
-				background:#303336;
+				background: linear-gradient(90deg, #292929, #006f98, #292929);
+				background-size: 600% 600%;
+				-webkit-animation: AnimationName 15s ease infinite;
+				-moz-animation: AnimationName 15s ease infinite;
+				animation: AnimationName 15s ease infinite;
 				text-align:center;
 			}
 			

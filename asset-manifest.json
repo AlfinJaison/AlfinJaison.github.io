@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.46f6b884.css",
+    "main.js": "/static/js/main.9b05a76d.js",
+    "static/media/ReactGridDashboardVideo.mp4": "/static/media/ReactGridDashboardVideo.d674805b3678f9639ff0.mp4",
+    "static/media/GraphicsBuilderVideo.mp4": "/static/media/GraphicsBuilderVideo.2d04e24416aff30fa9f3.mp4",
+    "static/media/ReactNativeAppVideo.mp4": "/static/media/ReactNativeAppVideo.c1ec83804acaab9416a8.mp4",
+    "static/media/OpenSans-Variable.ttf": "/static/media/OpenSans-Variable.ceb05254cedfa895b512.ttf",
+    "static/media/Raleway-Variable.ttf": "/static/media/Raleway-Variable.575ec9e676c7a85494bb.ttf",
+    "static/media/Jura-Variable.ttf": "/static/media/Jura-Variable.6138926f14a8226caf84.ttf",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/Alfin_CV.pdf": "/static/media/Alfin_CV.80d2e0c43a03da0a9550.pdf",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.46f6b884.css",
+    "static/js/main.9b05a76d.js"
+  ]
+}

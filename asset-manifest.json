@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.46f6b884.css",
-    "main.js": "/static/js/main.535691b7.js",
+    "main.js": "/static/js/main.c7cad55c.js",
     "static/media/GraphicsBuilderVideo.mp4": "/static/media/GraphicsBuilderVideo.39655a018b94ee96732e.mp4",
     "static/media/ReactGridDashboardVideo.mp4": "/static/media/ReactGridDashboardVideo.73dcee52c18de946cffc.mp4",
     "static/media/ReactNativeAppVideo.mp4": "/static/media/ReactNativeAppVideo.1f98e9a2cf872238d14d.mp4",
@@ -10,11 +10,10 @@
     "static/media/Jura-Variable.ttf": "/static/media/Jura-Variable.6138926f14a8226caf84.ttf",
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
-    "static/media/Alfin_CV.pdf": "/static/media/Alfin_CV.80d2e0c43a03da0a9550.pdf",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.46f6b884.css",
-    "static/js/main.535691b7.js"
+    "static/js/main.c7cad55c.js"
   ]
 }

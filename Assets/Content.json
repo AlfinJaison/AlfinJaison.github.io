@@ -1,0 +1,25 @@
+[
+    {
+        "title" : "React Grid Dashboard",
+        "content":"React application using react-grid-layout library to create a customizable Dashboard. Widgets can be created, deleted, moved and resized by the user. Demo available on CodeSandbox.",
+        "links" : [
+            ["CodeSandbox","https://codesandbox.io/s/react-grid-dashboard-zhfsq"]
+        ],
+        "videoLink" : "https://alfinjaison.github.io/Assets/ReactGridDashboardVideo.mp4"
+    },
+    {
+        "title" : "BT Xpress Mobile App",
+        "content":"React Native was used to create mobile application for both IOS and Android platforms. BMS application used by Facility managers to monitor equipments and get an overview of the facility. App was published on App store and Play Store.",
+        "links" : [
+            ["Apple App store", "https://apps.apple.com/za/app/bt-xpress-mobile/id1635104413"],
+            ["Google Play store", "https://play.google.com/store/apps/details?id=com.adeptus.btxpressmobile"]
+        ],
+        "videoLink" : "https://alfinjaison.github.io/Assets/ReactNativeAppVideo.mp4"
+    },
+    {
+        "title" : "Graphics Builder",
+        "content":"Graphics builder is a core component of the BMS web application project. The purpose of this component is to allow the user to create and view an interactive graphical layout of the equipment.",
+        "links" : [],
+        "videoLink" : "https://alfinjaison.github.io/Assets/GraphicsBuilderVideo.mp4"
+    }
+]

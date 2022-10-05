@@ -25,7 +25,9 @@
     {
         "title" : "React E-Commerce",
         "content":"E-Commerce app containing a product list page with filter and search features.",
-        "links" : ["Github","https://github.com/AlfinJaison/react-ecommerce"],
+        "links" : [
+            ["Github","https://github.com/AlfinJaison/react-ecommerce"]
+        ],
         "videoLink" : "https://alfinjaison.github.io/Assets/ReactEcommerceVideo.mp4"
     }
 ]

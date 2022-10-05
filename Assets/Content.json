@@ -21,5 +21,11 @@
         "content":"Graphics builder is a core component of the BMS web application project. The purpose of this component is to allow the user to create and view an interactive graphical layout of the equipment.",
         "links" : [],
         "videoLink" : "https://alfinjaison.github.io/Assets/GraphicsBuilderVideo.mp4"
+    },
+    {
+        "title" : "React E-Commerce",
+        "content":"E-Commerce app containing a product list page with filter and search features.",
+        "links" : ["Github","https://github.com/AlfinJaison/react-ecommerce"],
+        "videoLink" : "https://alfinjaison.github.io/Assets/ReactEcommerceVideo.mp4"
     }
 ]
